@@ -1,13 +1,14 @@
 {
-  "name": "dragon-mount",
-  "start_url": "dragon.glb",
+  "name": "phoenix",
+  "start_url": "phoenix.glb",
   "components": [
     {
       "key": "sit",
       "value": {
         "subtype": "saddle",
         "sitBone": "Spine",
-        "walkAnimation": "Armature|Armature|Hopping|Armature|Hopping",
+        "sitOffset": [0, 0, 0],
+        "walkAnimation": "Flying",
         "walkAnimationHoldTime": 1,
         "walkAnimationSpeedFactor": 0.1,
         "speed": 0.02,
